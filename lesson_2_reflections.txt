@@ -8,3 +8,11 @@ repository? What value do you think it offers?
 
 The staging area allows me to separate out the files that I want to include in 
 one commit.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+I can only add one file that I've changed, and then add others as 
+separate commits.
+
+
