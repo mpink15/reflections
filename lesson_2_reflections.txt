@@ -15,4 +15,28 @@ logical change?
 I can only add one file that I've changed, and then add others as 
 separate commits.
 
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
 
+Branches would be helpful when I want to create a new version of a program 
+(for example, with an experimental feature) while maintaining the old 
+version.  Branches would allow me to commit changes to the new version 
+without changing the old one.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help me see the parents of each commit and which commits are
+reachable from a current branch.
+
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+Merging two branches combines the two programs at the tips into one program.
+The diagram indicates that the tips of the branches are merged into one file 
+and all of the previous commits on both branches are retained.
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+Git's automatic merging saves a lot of time, but conflicts still need to be
+resolved manually.
